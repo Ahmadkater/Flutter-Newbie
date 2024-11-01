@@ -1,6 +1,7 @@
 
 import 'package:tasks/a1.dart' as assignment1;
 import 'package:tasks/a2.dart' as assignment2;
+import 'package:tasks/a3.dart' as assignment3;
 
 void main(List<String> arguments) 
 {
@@ -40,6 +41,17 @@ assignment2.q3Ntermsofoddnaturalnumbers();
 assignment2.q4countofnumberstype();
 assignment2.q5fact();*/
 //assignment2.q6reversedigit();
-assignment2.q7numbersdivisable56();
-assignment2.q8isprimenumber();
+//assignment2.q7numbersdivisable56();
+//assignment2.q8isprimenumber();
+
+//assignment3.getinputarray();
+var f = assignment3.getinputarray();
+//assignment3.getmin(f);
+//assignment3.calculateeven(f);
+//assignment3.countocurrancesof2(f);
+//assignment3.countocurrances(f);
+
+//assignment3.bubblesort(f);
+//assignment3.optimizedbubblesort(f);
+assignment3.selectionSort(f);
 }
