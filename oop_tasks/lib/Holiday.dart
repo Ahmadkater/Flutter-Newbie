@@ -22,8 +22,8 @@ class Holiday
     for (var element in h)
     {
       sum += element.day;
-    }
+    } 
 
-    return sum;
+    return sum~/h.length;
   }
-}
+}  
